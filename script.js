@@ -37,7 +37,7 @@ function calculateAge(){
         y3--;
     }
     //console.log(y3,m3,d3);
-    result.innerHTML = `Είσαι <span>${y3}</span> χρονών, <span>${m3}</span> μηνών και <span>${d3}</span> ημέρες μεγαλύτερος!`;
+    result.innerHTML = `Είσαι <span>${y3}</span> χρονών, <span>${m3}</span> μηνών και κατά<span>${d3}</span> ημερών μεγαλύτερος!`;
 }
 
 function getDaysInMonth(year, month){
